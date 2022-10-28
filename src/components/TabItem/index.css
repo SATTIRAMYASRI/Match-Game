@@ -1,0 +1,15 @@
+.tabItem-container {
+  list-style-type: none;
+}
+.tabItem-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border: 0px;
+}
+.active-tab {
+  position: relative;
+  border-bottom: 3px solid #fec653;
+  color: #fec653;
+}

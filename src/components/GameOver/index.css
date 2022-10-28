@@ -1,0 +1,65 @@
+.gameOver-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  margin: 0px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.gameOver-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  width: 500px;
+  min-height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.trophy-img {
+  width: 300px;
+  height: 200px;
+  margin-top: 150px;
+  margin-bottom: 0px;
+}
+
+.yourScore-text {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  margin: 2px;
+}
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.playAgain-button {
+  background-color: #cf60c8;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.playAgain-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  margin-left: 2px;
+}
+@media screen and (max-width: 767px) {
+  .gameover-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: cover;
+  }
+}

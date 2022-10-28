@@ -1,0 +1,12 @@
+.Thumbnail-image-container {
+  list-style-type: none;
+}
+.Thumbnail-image-btn {
+  background-color: transparent;
+  border: 0px;
+}
+
+.Thumbnail-image {
+  width: 100px;
+  height: 100px;
+}
